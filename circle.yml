@@ -20,6 +20,9 @@ dependencies:
     cache_directories:
         - /usr/local/android-sdk-linux/tools
         - /usr/local/android-sdk-linux/build-tools/24.0.0
+    override:
+        - chmod +x gradlew
+        - ./gradlew dependencies
 
 test:
     override:
