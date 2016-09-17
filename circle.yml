@@ -6,7 +6,7 @@
 
 general:
     artifacts:
-        - /home/ubuntu/CircleCI/app/build/outputs/apk/
+        - /home/ubuntu/circleci-integration/app/build/outputs/apk/
 
 machine:
     environment:
