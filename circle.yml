@@ -22,6 +22,7 @@ dependencies:
         - /usr/local/android-sdk-linux/build-tools/24.0.0
     override:
         - chmod +x gradlew
+        - ANDROID_HOME=/usr/local/android-sdk-linux ./gradlew dependencies
 
 test:
     override:
